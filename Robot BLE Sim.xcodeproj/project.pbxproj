@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468C55BA1E94807700DFDE6F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468C55B91E94807700DFDE6F /* Result.swift */; };
+		469C442C1E91DD0800068440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C442B1E91DD0800068440 /* AppDelegate.swift */; };
+		469C442E1E91DD0800068440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C442D1E91DD0800068440 /* ViewController.swift */; };
+		469C44311E91DD0800068440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469C442F1E91DD0800068440 /* Main.storyboard */; };
+		469C44331E91DD0800068440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469C44321E91DD0800068440 /* Assets.xcassets */; };
+		469C44361E91DD0800068440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469C44341E91DD0800068440 /* LaunchScreen.storyboard */; };
+		469C44411E91DD0800068440 /* Robot_BLE_SimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C44401E91DD0800068440 /* Robot_BLE_SimTests.swift */; };
+		469C444C1E91E4BF00068440 /* BLEDeviceSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C444B1E91E4BF00068440 /* BLEDeviceSimulator.swift */; };
+		469C942D1E93067F00FB3A75 /* RobotServicesDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C942C1E93067F00FB3A75 /* RobotServicesDefinitions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469C443D1E91DD0800068440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469C44201E91DD0800068440 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469C44271E91DD0800068440;
+			remoteInfo = "Robot BLE Sim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		468C55B91E94807700DFDE6F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		469C44281E91DD0800068440 /* Robot BLE Sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot BLE Sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469C442B1E91DD0800068440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		469C442D1E91DD0800068440 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		469C44301E91DD0800068440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469C44321E91DD0800068440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469C44351E91DD0800068440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		469C44371E91DD0800068440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469C443C1E91DD0800068440 /* Robot BLE SimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot BLE SimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469C44401E91DD0800068440 /* Robot_BLE_SimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot_BLE_SimTests.swift; sourceTree = "<group>"; };
+		469C44421E91DD0800068440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469C444B1E91E4BF00068440 /* BLEDeviceSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceSimulator.swift; sourceTree = "<group>"; };
+		469C942C1E93067F00FB3A75 /* RobotServicesDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotServicesDefinitions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469C44251E91DD0800068440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469C44391E91DD0800068440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469C441F1E91DD0800068440 = {
+			isa = PBXGroup;
+			children = (
+				469C442A1E91DD0800068440 /* Robot BLE Sim */,
+				469C443F1E91DD0800068440 /* Robot BLE SimTests */,
+				469C44291E91DD0800068440 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469C44291E91DD0800068440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469C44281E91DD0800068440 /* Robot BLE Sim.app */,
+				469C443C1E91DD0800068440 /* Robot BLE SimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469C442A1E91DD0800068440 /* Robot BLE Sim */ = {
+			isa = PBXGroup;
+			children = (
+				469C442B1E91DD0800068440 /* AppDelegate.swift */,
+				469C442D1E91DD0800068440 /* ViewController.swift */,
+				469C444B1E91E4BF00068440 /* BLEDeviceSimulator.swift */,
+				469C942C1E93067F00FB3A75 /* RobotServicesDefinitions.swift */,
+				468C55B91E94807700DFDE6F /* Result.swift */,
+				469C442F1E91DD0800068440 /* Main.storyboard */,
+				469C44321E91DD0800068440 /* Assets.xcassets */,
+				469C44341E91DD0800068440 /* LaunchScreen.storyboard */,
+				469C44371E91DD0800068440 /* Info.plist */,
+			);
+			path = "Robot BLE Sim";
+			sourceTree = "<group>";
+		};
+		469C443F1E91DD0800068440 /* Robot BLE SimTests */ = {
+			isa = PBXGroup;
+			children = (
+				469C44401E91DD0800068440 /* Robot_BLE_SimTests.swift */,
+				469C44421E91DD0800068440 /* Info.plist */,
+			);
+			path = "Robot BLE SimTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469C44271E91DD0800068440 /* Robot BLE Sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469C44451E91DD0800068440 /* Build configuration list for PBXNativeTarget "Robot BLE Sim" */;
+			buildPhases = (
+				469C44241E91DD0800068440 /* Sources */,
+				469C44251E91DD0800068440 /* Frameworks */,
+				469C44261E91DD0800068440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robot BLE Sim";
+			productName = "Robot BLE Sim";
+			productReference = 469C44281E91DD0800068440 /* Robot BLE Sim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		469C443B1E91DD0800068440 /* Robot BLE SimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469C44481E91DD0800068440 /* Build configuration list for PBXNativeTarget "Robot BLE SimTests" */;
+			buildPhases = (
+				469C44381E91DD0800068440 /* Sources */,
+				469C44391E91DD0800068440 /* Frameworks */,
+				469C443A1E91DD0800068440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469C443E1E91DD0800068440 /* PBXTargetDependency */,
+			);
+			name = "Robot BLE SimTests";
+			productName = "Robot BLE SimTests";
+			productReference = 469C443C1E91DD0800068440 /* Robot BLE SimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469C44201E91DD0800068440 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Steve Knodl";
+				TargetAttributes = {
+					469C44271E91DD0800068440 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FS2JZQF3GJ;
+						ProvisioningStyle = Automatic;
+					};
+					469C443B1E91DD0800068440 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FS2JZQF3GJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 469C44271E91DD0800068440;
+					};
+				};
+			};
+			buildConfigurationList = 469C44231E91DD0800068440 /* Build configuration list for PBXProject "Robot BLE Sim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469C441F1E91DD0800068440;
+			productRefGroup = 469C44291E91DD0800068440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469C44271E91DD0800068440 /* Robot BLE Sim */,
+				469C443B1E91DD0800068440 /* Robot BLE SimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469C44261E91DD0800068440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469C44361E91DD0800068440 /* LaunchScreen.storyboard in Resources */,
+				469C44331E91DD0800068440 /* Assets.xcassets in Resources */,
+				469C44311E91DD0800068440 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469C443A1E91DD0800068440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469C44241E91DD0800068440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468C55BA1E94807700DFDE6F /* Result.swift in Sources */,
+				469C442E1E91DD0800068440 /* ViewController.swift in Sources */,
+				469C444C1E91E4BF00068440 /* BLEDeviceSimulator.swift in Sources */,
+				469C442C1E91DD0800068440 /* AppDelegate.swift in Sources */,
+				469C942D1E93067F00FB3A75 /* RobotServicesDefinitions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469C44381E91DD0800068440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469C44411E91DD0800068440 /* Robot_BLE_SimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469C443E1E91DD0800068440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469C44271E91DD0800068440 /* Robot BLE Sim */;
+			targetProxy = 469C443D1E91DD0800068440 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		469C442F1E91DD0800068440 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469C44301E91DD0800068440 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469C44341E91DD0800068440 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469C44351E91DD0800068440 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469C44431E91DD0800068440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		469C44441E91DD0800068440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469C44461E91DD0800068440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS2JZQF3GJ;
+				INFOPLIST_FILE = "Robot BLE Sim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodpeckerpole.Robot-BLE-Sim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		469C44471E91DD0800068440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS2JZQF3GJ;
+				INFOPLIST_FILE = "Robot BLE Sim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodpeckerpole.Robot-BLE-Sim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		469C44491E91DD0800068440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FS2JZQF3GJ;
+				INFOPLIST_FILE = "Robot BLE SimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodpeckerpole.Robot-BLE-SimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot BLE Sim.app/Robot BLE Sim";
+			};
+			name = Debug;
+		};
+		469C444A1E91DD0800068440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FS2JZQF3GJ;
+				INFOPLIST_FILE = "Robot BLE SimTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodpeckerpole.Robot-BLE-SimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot BLE Sim.app/Robot BLE Sim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469C44231E91DD0800068440 /* Build configuration list for PBXProject "Robot BLE Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469C44431E91DD0800068440 /* Debug */,
+				469C44441E91DD0800068440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469C44451E91DD0800068440 /* Build configuration list for PBXNativeTarget "Robot BLE Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469C44461E91DD0800068440 /* Debug */,
+				469C44471E91DD0800068440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469C44481E91DD0800068440 /* Build configuration list for PBXNativeTarget "Robot BLE SimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469C44491E91DD0800068440 /* Debug */,
+				469C444A1E91DD0800068440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469C44201E91DD0800068440 /* Project object */;
+}

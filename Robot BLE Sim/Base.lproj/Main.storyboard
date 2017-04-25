@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Robot_BLE_Sim" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advertising" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlR-iB-cxC">
+                                <rect key="frame" x="16" y="626" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELF-Wa-2D0">
+                                <rect key="frame" x="310" y="621" width="51" height="31"/>
+                                <connections>
+                                    <action selector="advertisingSwitchToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="4dN-aU-eSD"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robot BLE Peripherial Simulator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipG-kS-bOn">
+                                <rect key="frame" x="39.5" y="30" width="296.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IFf-RM-PGq">
+                                <rect key="frame" x="16" y="100" width="343" height="501"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Log" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LX-dL-NxI">
+                                <rect key="frame" x="142.5" y="71" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ipG-kS-bOn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6DP-u4-ehS"/>
+                            <constraint firstItem="ELF-Wa-2D0" firstAttribute="centerY" secondItem="RlR-iB-cxC" secondAttribute="centerY" id="Ely-FL-sDb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IFf-RM-PGq" secondAttribute="trailing" id="FC2-xC-hZT"/>
+                            <constraint firstItem="1LX-dL-NxI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMJ-pC-8ip"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ELF-Wa-2D0" secondAttribute="bottom" constant="15" id="fkh-uf-QXY"/>
+                            <constraint firstItem="1LX-dL-NxI" firstAttribute="top" secondItem="ipG-kS-bOn" secondAttribute="bottom" constant="17" id="mi8-AF-WA9"/>
+                            <constraint firstItem="IFf-RM-PGq" firstAttribute="top" secondItem="1LX-dL-NxI" secondAttribute="bottom" constant="8" id="ml9-gN-4L9"/>
+                            <constraint firstItem="ipG-kS-bOn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="o9V-fu-EPV"/>
+                            <constraint firstItem="RlR-iB-cxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pmb-EY-yAu"/>
+                            <constraint firstItem="IFf-RM-PGq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tsg-Ew-Ybp"/>
+                            <constraint firstItem="ELF-Wa-2D0" firstAttribute="top" secondItem="IFf-RM-PGq" secondAttribute="bottom" constant="20" id="wJo-QO-xES"/>
+                            <constraint firstItem="ELF-Wa-2D0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xTf-9X-yow"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityLogTextView" destination="IFf-RM-PGq" id="W2P-mM-GbV"/>
+                        <outlet property="advertisingSwitch" destination="ELF-Wa-2D0" id="yzg-Oy-t75"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
